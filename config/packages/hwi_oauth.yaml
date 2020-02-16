@@ -1,0 +1,10 @@
+hwi_oauth:
+    firewall_names: [secured_area]
+    resource_owners:
+        auth0:
+            type:                oauth2
+            class:               'App\Auth0ResourceOwner'
+            client_id:           YQ8NuJt7sMOL38lPXPSQLQkUJPQFweHx
+            client_secret:       NIGxPygU4GvXuX0ICR4QmWXrgHaOgD4_QnyIki5gv11tdJbxjveTPJBCW3j3XeLB
+            base_url:            https://dev-wxzn2evv.eu.auth0.com
+            scope: "openid profile"
